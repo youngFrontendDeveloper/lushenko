@@ -1,0 +1,18 @@
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+}
+span {
+    font-weight: bold;
+}
+
+a {
+    color:#c0c0c0;
+    font-style: italic;
+}
+.hide {
+    display: none;
+}
