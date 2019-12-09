@@ -92,13 +92,13 @@ li{
 }
 
 .line{
-    border:1px solid #000;
+    border:1px solid #c0c0c0;
     padding:15px;
     margin:10px;
 }
 .sq{
     width: 50px;
     height: 50px;
-    background-color:#ccc;
+    background-color:#c0c0c0;
     border:1px solid #000;
 }
