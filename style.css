@@ -102,3 +102,18 @@ li{
     background-color:#ccc;
     border:1px solid #000;
 }
+
+/* +++++++++++++++РАБОТАЕМ С CSS++++++++++ */
+
+.block {
+    width: 150px;
+    height: 150px;
+    background: bisque;
+    border: 1px solid #666;
+}
+.red {
+    border:2px solid  red;
+}
+.green {
+    background: green;
+}

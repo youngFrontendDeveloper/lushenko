@@ -848,3 +848,24 @@ document.onkeydown = function() {
 document.onkeyup = function() {
     console.log("keyup");
 } 
+
+// +++++++++++++++РАБОТАЕМ С CSS++++++++++
+
+let block = document.querySelector('.block');
+
+console.log(block.style); // Смотрим свойства
+block.style.width = "200px";  // Меняем значение свойства
+block.classList; //  Получаем доступ к классу
+console.log(block.classList); // Смотрим список классов, который есть у элемента
+
+block.classList.add('red');  //  Добавляем класс к элементу
+block.classList.add('green');
+block.classList.remove('green'); // Удаляем класс
+
+block.classList.contains('green'); // Проверяем, содержит ли элемент класс green. Выдаст true/false
+console.log(block.classList.contains('green')); // false
+
+block.classList.toggle('red'); // Включаем/выключаем класс. Используется, например, в модальных окнах
+block.classList.toggle('red');
+
+
