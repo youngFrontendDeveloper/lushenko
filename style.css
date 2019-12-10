@@ -121,33 +121,37 @@ main {
     position: relative;
     margin: 0 auto;
 }
-#registration {
+.registration {
     position: absolute;
     top:20%;
     left: calc(50% - 350px);
-    display:none;
+    display: none;
     width: 500px;
     padding: 100px;
     background-color: #cccccc;
 }
-#registration label {
+.registration label {
     display:inline-block;
     width: 280px;
     padding:3px;
     margin:5px;
 }
-#registration input {
+.registration input {
     width: 150px;
     padding:3px;
     margin:5px;
 }
 
-#registration .close {
+.registration .close-btn {
     position: absolute;
     top: -16px;
     right: -16px;
+    cursor:pointer;
 }
 img {
     width: 100%;
     margin: 0px;
+}
+.hide {
+    display: block;
 }

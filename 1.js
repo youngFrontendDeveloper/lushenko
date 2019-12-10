@@ -868,6 +868,25 @@
 // block.classList.toggle('red'); // Включаем/выключаем класс. Используется, например, в модальных окнах
 // block.classList.toggle('red');
 
+// Домашняя работа
 
+// let registrationBtn = document.querySelector('#registration-btn');
+// registrationBtn.onclick = function() {
+//     document.querySelector('.registration').style.display = "inline-block";
+// }
 
+// document.querySelector('.close').onclick = function() {
+//     document.querySelector('.registration').style.display = "none";
+// }
 
+// Второй вариант:
+
+document.querySelector('#registration-btn').onclick = function() {
+    document.querySelector('.registration').classList.toggle('hide');
+    
+}
+
+document.querySelector('.close-btn').onclick = function() {
+
+    document.querySelector('.registration').classList.remove('hide');
+}
