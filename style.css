@@ -117,3 +117,37 @@ li{
 .green {
     background: green;
 }
+main {
+    position: relative;
+    margin: 0 auto;
+}
+#registration {
+    position: absolute;
+    top:20%;
+    left: calc(50% - 350px);
+    display:none;
+    width: 500px;
+    padding: 100px;
+    background-color: #cccccc;
+}
+#registration label {
+    display:inline-block;
+    width: 280px;
+    padding:3px;
+    margin:5px;
+}
+#registration input {
+    width: 150px;
+    padding:3px;
+    margin:5px;
+}
+
+#registration .close {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+}
+img {
+    width: 100%;
+    margin: 0px;
+}

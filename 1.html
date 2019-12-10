@@ -250,15 +250,38 @@
 
 <!-- +++++++++++++++СОБЫТИЯ КЛАВИАТУРЫ+++++++++++++++++ -->
 
-<input type="text" id="new_test">
+<!-- <input type="text" id="new_test">
 
 <div class="line">
     <div class="sq"></div>
-</div>    
+</div>     -->
 
  <!-- +++++++++++++++РАБОТАЕМ С CSS+++++++++++ -->
 
  <div class="block"></div>
+
+ <main>
+        <input id="registration-btn" type="button" value="Зарегистрироваться">
+        <form id="registration">
+           <label for="last-name"> Введите фамилию: </label>
+               <input id="last-name" type="text" placeholder="Ваша фамилия">
+           
+           <label for="name"> Введите имя: </label>
+               <input id="name" type="text" placeholder="Ваше имя">
+           
+           <label for="login"> Придумайте себе логин: </label>
+               <input id="login" type="text" placeholder="Логин">
+           
+           <label for="passw"> Придумайте себе пароль:</label>
+               <input id="passw" type="password" placeholder="Пароль">
+           
+           <input type="button" value="Отправить">
+           <div class="close">
+               <img src="img/close_x_32.png" alt="Close">
+           </div>
+        </form>
+ </main>
+
  
 <script src="1.js"></script>
 
