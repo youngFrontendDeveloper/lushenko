@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <button class="modal-show" data-modal="#sign-in">
+        Регистрация
+    </button>
+    <div class="modal-wrap hide" >
+        <div class="modal hide" id="sign-in">
+            <div class="labels">
+                <label for="user_name">Введите логин: </label>
+                <label for="user_pass">Введите пароль: </label>
+            </div>
+            <div class="inputs">
+                <input id="user-name" type="text" placeholder="Логин">
+                <input id ="user_pass" type="password" placeholder="Пароль">
+            </div>
+            <button class="ent">Войти</button>
+            <button class="modal-close" data-modal="#sign-in">Close</button>
+        </div>
+    </div>
+
+
+    <script src="js/modal.js"></script>
+</body>
+</html>
