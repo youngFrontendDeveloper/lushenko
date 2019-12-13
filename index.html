@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
-    <button class="modal-show" data-modal="#sign-in">
+    <!-- <button class="modal-show" data-modal="#sign-in">
         Регистрация
     </button>
     <div class="modal-wrap hide" >
@@ -24,7 +24,30 @@
             <button class="ent">Войти</button>
             <button class="modal-close" data-modal="#sign-in">Close</button>
         </div>
+    </div> -->
+
+    <!-- Второй вариант модального окна (Не Лущенко) -->
+    <button class="btn-modal">
+        Регистрация
+    </button>
+    <div class="modal-overlay hide close"></div>  
+    <div class="wrap hide close">
+        <div class="modal">
+            <div class="labels">
+                <label for="user_name">Введите логин: </label>
+                <label for="user_pass">Введите пароль: </label>
+            </div>
+            <div class="inputs">
+                <input id="user-name" type="text" placeholder="Логин">
+                <input id ="user_pass" type="password" placeholder="Пароль">
+            </div>
+            <button class="ent">Войти</button>
+            
+        </div>
+        <button class="modal-close close">Close</button>
     </div>
+    
+
 
 
     <script src="js/modal.js"></script>

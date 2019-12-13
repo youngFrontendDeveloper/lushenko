@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.modal-wrap {
+/* .modal-wrap {
     position: absolute;
     top: 0;
     left:0;
@@ -53,4 +53,67 @@
 }
 .hide {
     display: none;
+} */
+
+/* Второй вариант модального окна (Не Лущенко)*/
+
+.wrap {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    z-index: 100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f7f7f7;
+    border:1px solid #272727;
+    transform: translate(-50%, -50%); 
 }
+.modal {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 200px;
+    margin:10% auto;
+    padding: 10px;
+}
+.labels {
+    width: 200px;
+}
+.inputs {
+    width: 220px;
+}
+.modal-close {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width:40px;
+    height: 40px;
+    outline: none;
+    font-size: 0;
+    border:none;
+    background-image: url(..//img/CloseIcon_40.png);
+    background-color: transparent;
+}
+.ent {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #5a5a5a;
+    border-radius:3px;
+    background-image:linear-gradient(#ffffff, #cccccc);
+    outline: none;
+}
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.hide {
+    display: none;
+} 
